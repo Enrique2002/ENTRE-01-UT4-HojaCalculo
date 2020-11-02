@@ -73,9 +73,9 @@ public class Fecha
     /**
      * Devuelve una copia exacta al objeto actual
      */
-    public Fecha obtenerCopia() {
-         return null;
-
+    public Fecha obtenerCopia() {  
+        System.out.println(new Fecha(dia, mes, año));
+        return null;        
     }
 
     /**
